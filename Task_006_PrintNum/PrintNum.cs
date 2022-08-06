@@ -2,9 +2,13 @@
 Console.Write("Введите пожалуйста число: ");
 string number1 = Console.ReadLine();
 int number2;
-if (int.TryParse(number1, out int output))
+double number;
+double checkN = 10.5463;
+number2 = Convert.ToInt32(checkN);
+Console.WriteLine(number2);
+if (Double.TryParse(number1, out number))
 {
-    number2 = Convert.ToInt32(number1);
+    number2 = Convert.ToInt32(number);
     if (number2 >= 0)
     {
         Console.Write("Ваш результат: ");
