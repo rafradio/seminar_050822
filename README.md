@@ -7,3 +7,4 @@
 * HW050822_printEven - Задача 8;
 * HW050822_isitEven - Задача 6;
 * HW050822_MaxMin - Задача 2;
+* HW050822_MaxFromThree - Задача 4;
