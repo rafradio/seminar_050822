@@ -2,12 +2,18 @@
 
 namespace MaxMin
 {
-    class Program
+    class Maxmin
     {
+        static int RandNumber()
+        {
+            int number = new Random().Next(-100, 101);
+            return number;
+        }
         static void Main(string[] args)
         {
-            int number1 = 90;
-            int number2 = 10;
+            Console.Clear();
+            int number1 = RandNumber();
+            int number2 = RandNumber();
             if (number1 > number2)
             {
                 int max = number1;
